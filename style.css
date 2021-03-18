@@ -1,0 +1,174 @@
+body * {
+    font-family: arial,sans-serif;
+    color: #222;
+    font-size: 14px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:48px;
+    justify-content: right;
+    
+    }
+
+header > a, header > div {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none; /* no underline */
+    font-family: arial,sans-serif;
+    margin: 10px;
+    font-size: small;
+}
+
+a:hover{
+ text-decoration: underline;
+}
+a:visited {
+    color: rgb(82, 82, 82);
+}
+
+#nineDots, #account {
+    margin: 10px;
+    max-height: 15px;
+    max-width: 15px;
+    margin: auto;
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 1.2em;
+}
+
+#containerForNineDots {
+    display: flex; 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+   
+    
+
+}
+
+#containerForNineDots:hover {
+    display: flexbox;
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+/*  header end */
+
+
+article {
+    width:100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+#paieskos_laukelis {
+    width:580px;
+    height: 44px;
+    justify-content: center;
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+}
+
+#paieskos_laukelis:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#laikantis_konteineris {
+    display: flex;
+    padding: 5px 8px 0 16px;
+    align-items: center;
+}
+
+#ivesties_laukelis input {
+    width: 500px;
+    border:none;
+}
+
+input:focus-visible {
+    outline-width: 0;
+}
+
+center {
+    margin-top: 30px;
+    font-size: small;
+}
+
+center > button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
+    
+}
+
+
+footer {
+    background: #f2f2f2;
+    flex-shrink: 0;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+    /* padding: 15px; */
+}
+
+footer > div {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+#virsutine_eilute {
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+}
+
+#apatine_eilute {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+#apatine_eilute div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+#kaire_puse, #desine_puse {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 20px;
+}
